@@ -1,0 +1,49 @@
+.MainDiv{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 90vw;
+  margin-left: 2vw;
+  margin-top: 5vh;
+  text-align: auto;
+  padding: 5vh;
+  border-radius: 10vh;
+  box-shadow: 1px 1px 10px #3628748a;
+}
+
+p{
+    color: red;
+    font-size: small;
+}
+
+label{
+    font-size: medium;
+    font-weight: 450;
+}
+
+:placeholder-shown{
+    font-size: small;
+    text-align: center;
+}
+
+.MainDiv div{
+    font-size: medium;
+    text-align: center;
+    padding: 3.25vh;
+}
+
+#addCourse{
+    border: none;
+  width: 8vw;
+  border-radius: 10px;
+  height: 6vh;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  float: center;
+  margin-right: 10px;
+  margin: 25px;
+  cursor: pointer;
+  background-color: #362874;
+  box-shadow: 1px 1px 1px #3628748a;
+}

@@ -1,0 +1,114 @@
+.admin-nav {
+    padding: 1vh;
+    background-color: #362874;
+    text-align: center;
+    box-shadow: 1px 1px 15px #3628748a;
+}
+.navbar-link {
+    margin-left: 24vw;
+    padding: 1vh;
+    text-align: center;
+}
+.navbar-link a {
+    margin-left: .5vw;
+    margin-right: 2vw;
+    color: white;
+    text-decoration: none;
+}
+.navbar-link img:hover {
+    transform: scale(1.1);
+}
+.navbar-link a:hover, .nav-logout a:hover {
+    transform: scale(1.1);
+}
+.nav-logout {
+    margin-left: 27vw;
+}
+.nav-logout a {
+    margin-left: .5vw;
+    margin-right: 2vw;
+    color: white;
+    text-decoration: none;
+}
+.academyGrid, .courseGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.courseElement{
+    width: 28rem;
+    height: 22rem;
+    margin: 2vw;
+    border-radius: 4vh;
+    box-shadow: 1px 1px 10px #3628748a;
+}
+.academyElement {
+    width: 28rem;
+    height: 33rem;
+    margin: 2vw;
+    border-radius: 4vh;
+    box-shadow: 1px 1px 10px #3628748a;
+}
+.academyElement:hover, .courseElement:hover {
+    transform: scale(1.05);
+}
+.academyElement img {
+    width: auto;
+    height: 30vh;
+    padding: 1vh;
+    object-fit: cover;
+    border-radius: 4vh;
+}
+.courseCardTitle {
+    text-align: center;
+    padding: 1vw;
+}
+.academyCardTitle {
+    padding-left: 1vh;
+}
+.academyCardGrid, .courseCardGrid {
+    display: grid;
+    text-align: start;
+    grid-template-columns: 10vw auto;
+}
+.academyCardGrid div, .courseCardGrid div {
+    font-size: 1vw;
+}
+.academyCardGrid p, .courseCardGrid p{
+    margin-bottom: 0;
+}
+.cardButton button {
+    width: 4vw;
+    height: 4vh;
+}
+#editAcademy:hover {
+    color: black;
+    background-color: #53478bc2;
+}
+#editAcademy {
+    margin-left: 5vw;
+    width: 5vw;
+    height: 5vh;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 1vh;
+    background-color: #362874;
+    box-shadow: 1px 1px 10px #3628748a;
+}
+#deleteAcademy:hover {
+    color: white;
+    background-color: rgba(255, 72, 0, 0.774);
+}
+#deleteAcademy {
+    margin-left: 1vw;
+    width: 5vw;
+    height: 5vh;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 1vh;
+    background-color: red;
+    box-shadow: 1px 1px 10px #3628748a;
+}

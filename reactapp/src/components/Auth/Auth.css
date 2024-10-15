@@ -1,0 +1,137 @@
+* {
+  margin: 0vh;
+  padding: 0vh;
+}
+.signup {
+  padding-top: 5vh;
+  padding-right: 10vw;
+  padding-left: 2vw;
+  padding-bottom: 7vh;
+  background-image: url("/public/images/3.jpg");
+}
+.error {
+  color: red;
+  margin-right: vh;
+  text-align: right;
+}
+.signup-heading {
+  margin-left: 15vh;
+  background-color: white;
+  border-radius: 16vh;
+}
+.signup-grid,
+.login-grid {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: auto auto;
+}
+.signup-right,
+.login-right {
+  width: 50vh;
+  padding: 5vh;
+}
+#email,
+#password,
+#username,
+#mobileNumber,
+#confirmPassword {
+  width: 45vh;
+  margin: 2vh;
+  height: 5vh;
+}
+.signup-img {
+  margin-top: 8vh;
+  width: 70vh;
+  border-radius: 10vh;
+}
+.signup-left {
+  margin-top: 6vh;
+  text-align: center;
+}
+.signup-text {
+  float: right;
+  font-weight: 500;
+  padding: 1vh;
+}
+.signup-text a {
+  color: #362874;
+}
+#submitButton,
+#loginButton {
+  background-color: #362874;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+@media screen and (max-width: 900px) {
+  .signup-grid {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .signup-right {
+    width: 90vw;
+    height: 90vh;
+    text-align: end;
+  }
+  .signup-heading {
+    width: 120vw;
+    margin-left: 2vw;
+  }
+  .signup-img {
+    width: 70vw;
+  }
+  #submitButton {
+    float: right;
+  }
+  .signup {
+    width: 150%;
+    height: 100%;
+    padding: 2vw;
+    background-color: #352a9981;
+  }
+}
+.login {
+  height: 100vh;
+  padding-top: 18vh;
+  background-image: url("/public/images/3.jpg");
+}
+.login-img {
+  width: 60vh;
+  height: 40vh;
+  padding: 4vh;
+  border-radius: 10vh;
+}
+.login-heading {
+  width: 160vh;
+  margin-left: 20vh;
+  background-color: white;
+  border-radius: 16vh;
+}
+.login-left {
+  margin: 5vh;
+  text-align: center;
+}
+.login-h {
+  margin-bottom: 5vh;
+}
+.welcome-login,
+.login-h,
+.welcome,
+.signup-h {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}

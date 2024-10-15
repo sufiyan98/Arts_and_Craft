@@ -1,0 +1,75 @@
+.course-info {
+    float: left;
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 14px;
+    margin-bottom: 10px;
+    width: 380px;
+    height: 230px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+}
+
+.course-name {
+    color: black;
+    text-align: left;
+    padding: 20px;
+    padding-top: 42px;
+    padding-bottom: 5px;
+    /* text-align: center; */
+    /* border: 1px solid red;  */
+}
+
+.course-join {
+    color: black;
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.course-end {
+    color: black;
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+
+}
+
+.course-button {
+    position: absolute;
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: -50px; 
+    border: 1px solid blue;
+    right: 10px;
+}
+
+.button {
+    color: black;
+    border-radius: 8px;
+    padding: 15px;
+    /* border: 1px solid blue;  */
+    right: 10px; 
+    width: 20px; 
+ }
+
+.buttons{
+    /* border: 1px solid red; */
+    text-align: right;
+    margin-left: 250px;
+    /* padding-bottom: 30px; */
+    background-color: rgb(35, 35, 117);
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+body {
+    background-color: white;
+  }

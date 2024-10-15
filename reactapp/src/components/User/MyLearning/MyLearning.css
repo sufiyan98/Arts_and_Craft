@@ -1,0 +1,56 @@
+.academyImgProfile {
+    width: 100%;
+    height: 15vw;
+    }
+    .ratingView {
+    text-align: end;
+    margin-right: 2vw;
+    }
+    .endView {
+    color: rgb(151, 34, 34);
+    font-weight: 600;
+    text-align: end;
+    margin-right: 2vw;
+    }
+    .joinedView {
+    color: rgb(151, 34, 34);
+    font-weight: 600;
+    text-align: start;
+    }
+    .progressView1 {
+    height: 10px;
+    background-color: #21709e;
+    }
+    .progressView2 {
+    height: 10px;
+    background-color: #21709e48;
+    }
+    .learn {
+    font-weight: 700;
+    }
+    #unenrollCourse {
+    width: 10vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 38vw;
+    background-color: rgb(255, 74, 2);
+    }
+    #unenrollCourse:hover, .MycourseGrid button:hover {
+    background-color: #e6492dab;
+    }
+    .MyLearingElement {
+    width: 70vh;
+    height: 60vh;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 4vh;
+    box-shadow: 1px 1px 10px #3628748a;
+    }
+    .MyLearingGrid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .MyLearingElement:hover {
+        transform: scale(1.05);
+    }
